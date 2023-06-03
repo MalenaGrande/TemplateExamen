@@ -1,0 +1,33 @@
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+form button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form input {
+    align-self: flex-start;
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.children-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
